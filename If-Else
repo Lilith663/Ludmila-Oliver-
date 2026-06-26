@@ -1,0 +1,136 @@
+Questão 1
+int numero = int.Parse(Console.ReadLine());
+
+if (numero % 2 == 0)
+{
+    Console.WriteLine("Par");
+}
+else
+{
+    Console.WriteLine("Ímpar");
+}
+
+Questão 2
+int idade = int.Parse(Console.ReadLine());
+
+if (idade >= 18)
+{
+    Console.WriteLine("Maior de idade");
+}
+else
+{
+    Console.WriteLine("Menor de idade");
+}
+
+Questão 3
+double nota = double.Parse(Console.ReadLine());
+
+if (nota >= 7)
+{
+    Console.WriteLine("Aprovado");
+}
+else
+{
+    Console.WriteLine("Reprovado");
+}
+
+Questão 4
+int n1 = int.Parse(Console.ReadLine());
+int n2 = int.Parse(Console.ReadLine());
+
+if (n1 > n2)
+{
+    Console.WriteLine(n1);
+}
+else if (n2 > n1)
+{
+    Console.WriteLine(n2);
+}
+else
+{
+    Console.WriteLine("Iguais");
+}
+
+Questão 5
+int numero = int.Parse(Console.ReadLine());
+
+if (numero >= 0)
+{
+    Console.WriteLine("Positivo");
+}
+else
+{
+    Console.WriteLine("Negativo");
+}
+
+Questão 6
+int numero = int.Parse(Console.ReadLine());
+
+if (numero % 5 == 0)
+{
+    Console.WriteLine("Múltiplo de 5");
+}
+else
+{
+    Console.WriteLine("Não é múltiplo de 5");
+}
+
+Questão 7
+double temperatura = double.Parse(Console.ReadLine());
+
+if (temperatura < 15)
+{
+    Console.WriteLine("Frio");
+}
+else
+{
+    Console.WriteLine("Agradável");
+}
+
+Questão 8
+char letra = char.Parse(Console.ReadLine());
+
+if (letra == 'a')
+{
+    Console.WriteLine("É a letra a");
+}
+else
+{
+    Console.WriteLine("Outra letra");
+}
+
+Questão 9
+double saldo = double.Parse(Console.ReadLine());
+
+if (saldo >= 0)
+{
+    Console.WriteLine("Saldo positivo");
+}
+else
+{
+    Console.WriteLine("Saldo negativo");
+}
+
+Questão 10
+int ano = int.Parse(Console.ReadLine());
+
+if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0))
+{
+    Console.WriteLine("Bissexto");
+}
+else
+{
+    Console.WriteLine("Não bissexto");
+}
+
+Questão 11
+char sexo = char.Parse(Console.ReadLine());
+
+if (sexo == 'M')
+{
+    Console.WriteLine("Masculino");
+}
+else
+{
+    Console.WriteLine("Feminino");
+}
