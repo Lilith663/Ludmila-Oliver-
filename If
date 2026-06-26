@@ -1,0 +1,405 @@
+Questão 1
+int numero = int.Parse(Console.ReadLine());
+
+if (numero > 0)
+{
+    Console.WriteLine("Número positivo");
+}
+
+Questão 2
+int idade = int.Parse(Console.ReadLine());
+
+if (idade >= 18)
+{
+    Console.WriteLine("Maior de idade");
+}
+
+Questão 3
+int numero = int.Parse(Console.ReadLine());
+
+if (numero % 2 == 0)
+{
+    Console.WriteLine("Número par");
+}
+
+Questão 4
+double nota = double.Parse(Console.ReadLine());
+
+if (nota >= 7)
+{
+    Console.WriteLine("Aprovado");
+}
+
+Questão 5
+int num1 = int.Parse(Console.ReadLine());
+int num2 = int.Parse(Console.ReadLine());
+
+if (num1 > num2)
+{
+    Console.WriteLine(num1);
+}
+
+Questão 6
+double salario = double.Parse(Console.ReadLine());
+
+if (salario < 1500)
+{
+    Console.WriteLine("Salário abaixo da média");
+}
+
+Questão 7
+double temperatura = double.Parse(Console.ReadLine());
+
+if (temperatura > 30)
+{
+    Console.WriteLine("Está calor");
+}
+
+Questão 8
+int numero = int.Parse(Console.ReadLine());
+
+if (numero % 5 == 0)
+{
+    Console.WriteLine("Divisível por 5");
+}
+
+Questão 9
+int estoque = int.Parse(Console.ReadLine());
+
+if (estoque < 10)
+{
+    Console.WriteLine("Estoque baixo");
+}
+
+Questão 10
+char caractere = char.Parse(Console.ReadLine());
+
+if (caractere == 's')
+{
+    Console.WriteLine("Confirmado");
+}
+
+Questão 11
+double velocidade = double.Parse(Console.ReadLine());
+
+if (velocidade > 80)
+{
+    Console.WriteLine("Acima do limite");
+}
+
+Questão 12
+double saldo = double.Parse(Console.ReadLine());
+
+if (saldo < 0)
+{
+    Console.WriteLine("Conta no vermelho");
+}
+
+Questão 13
+int numero = int.Parse(Console.ReadLine());
+
+if (numero == 0)
+{
+    Console.WriteLine("O número é zero");
+}
+
+Questão 14
+double altura = double.Parse(Console.ReadLine());
+
+if (altura > 1.80)
+{
+    Console.WriteLine("Pessoa alta");
+}
+
+Questão 15
+int anoNascimento = int.Parse(Console.ReadLine());
+
+if (anoNascimento > 2000)
+{
+    Console.WriteLine("Nascido após o ano 2000");
+}
+
+Questão 16
+double preco = double.Parse(Console.ReadLine());
+
+if (preco > 100)
+{
+    Console.WriteLine("Produto caro");
+}
+
+Questão 17
+int numero = int.Parse(Console.ReadLine());
+
+if (numero % 3 == 0)
+{
+    Console.WriteLine("Múltiplo de 3");
+}
+
+Questão 18
+int faltas = int.Parse(Console.ReadLine());
+
+if (faltas > 25)
+{
+    Console.WriteLine("Reprovado por falta");
+}
+
+Questão 19
+int valor1 = int.Parse(Console.ReadLine());
+int valor2 = int.Parse(Console.ReadLine());
+
+if (valor1 == valor2)
+{
+    Console.WriteLine("Valores iguais");
+}
+
+Questão 20
+double chuva = double.Parse(Console.ReadLine());
+
+if (chuva > 50)
+{
+    Console.WriteLine("Risco de alagamento");
+}
+
+Questão 21
+int numero = int.Parse(Console.ReadLine());
+
+if (numero >= 1 && numero <= 10)
+{
+    Console.WriteLine("Dentro do intervalo");
+}
+
+Questão 22
+double consumo = double.Parse(Console.ReadLine());
+
+if (consumo > 500)
+{
+    Console.WriteLine("Consumo alto");
+}
+
+Questão 23
+double nota = double.Parse(Console.ReadLine());
+
+if (nota >= 60)
+{
+    Console.WriteLine("Habilitado");
+}
+
+Questão 24
+int horas = int.Parse(Console.ReadLine());
+
+if (horas > 40)
+{
+    Console.WriteLine("Horas extras");
+}
+
+Questão 25
+int valor = int.Parse(Console.ReadLine());
+
+if (valor % 2 == 0 && valor % 3 == 0)
+{
+    Console.WriteLine("Múltiplo de 6");
+}
+
+Questão 26
+double pressao = double.Parse(Console.ReadLine());
+
+if (pressao < 28)
+{
+    Console.WriteLine("Calibrar os pneus");
+}
+
+Questão 27
+int tentativas = int.Parse(Console.ReadLine());
+
+if (tentativas > 3)
+{
+    Console.WriteLine("Conta bloqueada");
+}
+
+Questão 28
+double combustivel = double.Parse(Console.ReadLine());
+
+if (combustivel < 5)
+{
+    Console.WriteLine("Reabasteça");
+}
+
+Questão 29
+int numero = int.Parse(Console.ReadLine());
+
+if (numero == 2 || numero == 3 || numero == 5)
+{
+    Console.WriteLine("É primo");
+}
+
+Questão 30
+int frequencia = int.Parse(Console.ReadLine());
+
+if (frequencia > 100)
+{
+    Console.WriteLine("Frequência elevada");
+}
+
+Questão 31
+double compra = double.Parse(Console.ReadLine());
+
+if (compra > 200)
+{
+    Console.WriteLine("Você ganhou frete grátis");
+}
+
+Questão 32
+char letra = char.Parse(Console.ReadLine());
+
+if (letra == 'a')
+{
+    Console.WriteLine("É a vogal a");
+}
+
+Questão 33
+int presentes = int.Parse(Console.ReadLine());
+
+if (presentes < 15)
+{
+    Console.WriteLine("Quórum insuficiente");
+}
+
+Questão 34
+double horasUso = double.Parse(Console.ReadLine());
+
+if (horasUso > 8)
+{
+    Console.WriteLine("Uso prolongado");
+}
+
+Questão 35
+int numero = int.Parse(Console.ReadLine());
+
+if (numero < 0)
+{
+    Console.WriteLine(Math.Abs(numero));
+}
+
+Questão 36
+double distancia = double.Parse(Console.ReadLine());
+
+if (distancia > 100)
+{
+    Console.WriteLine("Viagem longa");
+}
+
+Questão 37
+double imc = double.Parse(Console.ReadLine());
+
+if (imc > 30)
+{
+    Console.WriteLine("Obesidade");
+}
+
+Questão 38
+int votos = int.Parse(Console.ReadLine());
+
+if (votos > 50)
+{
+    Console.WriteLine("Maioria atingida");
+}
+
+Questão 39
+int paginas = int.Parse(Console.ReadLine());
+
+if (paginas > 50)
+{
+    Console.WriteLine("Documento longo");
+}
+
+Questão 40
+double valor = double.Parse(Console.ReadLine());
+
+if (valor == 0)
+{
+    Console.WriteLine("Valor zerado");
+}
+
+Questão 41
+int satisfacao = int.Parse(Console.ReadLine());
+
+if (satisfacao >= 8)
+{
+    Console.WriteLine("Cliente satisfeito");
+}
+
+Questão 42
+int erros = int.Parse(Console.ReadLine());
+
+if (erros > 5)
+{
+    Console.WriteLine("Atenção ao desempenho");
+}
+
+Questão 43
+int mes = int.Parse(Console.ReadLine());
+
+if (mes == 12)
+{
+    Console.WriteLine("Mês de dezembro");
+}
+
+Questão 44
+double peso = double.Parse(Console.ReadLine());
+
+if (peso > 30)
+{
+    Console.WriteLine("Encomenda pesada");
+}
+
+Questão 45
+int matricula = int.Parse(Console.ReadLine());
+
+if (matricula % 2 == 0)
+{
+    Console.WriteLine("Matrícula par");
+}
+
+Questão 46
+int bateria = int.Parse(Console.ReadLine());
+
+if (bateria < 20)
+{
+    Console.WriteLine("Bateria fraca");
+}
+
+Questão 47
+int acessos = int.Parse(Console.ReadLine());
+
+if (acessos > 1000)
+{
+    Console.WriteLine("Pico de acessos");
+}
+
+Questão 48
+double temperatura = double.Parse(Console.ReadLine());
+
+if (temperatura > 220)
+{
+    Console.WriteLine("Forno muito quente");
+}
+
+Questão 49
+int numero = int.Parse(Console.ReadLine());
+
+int dezena = numero / 10;
+int unidade = numero % 10;
+int soma = dezena + unidade;
+
+if (soma > 10)
+{
+    Console.WriteLine("Soma alta");
+}
+
+Questão 50
+int espera = int.Parse(Console.ReadLine());
+
+if (espera > 30)
+{
+    Console.WriteLine("Tempo de espera excedido");
+}
