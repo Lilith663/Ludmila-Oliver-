@@ -1,0 +1,614 @@
+ Questão 1
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(i);
+}
+
+Questão 2
+for (int i = 10; i >= 1; i--)
+{
+    Console.WriteLine(i);
+}
+
+Questão 3
+int soma = 0;
+
+for (int i = 1; i <= 100; i++)
+{
+    soma += i;
+}
+
+Console.WriteLine(soma);
+
+Questão 4
+int numero = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine($"{numero} x {i} = {numero * i}");
+}
+
+Questão 5
+for (int i = 2; i <= 50; i += 2)
+{
+    Console.WriteLine(i);
+}
+
+Questão 6
+for (int i = 1; i <= 50; i += 2)
+{
+    Console.WriteLine(i);
+}
+
+Questão 7
+int soma = 0;
+
+for (int i = 1; i <= 10; i++)
+{
+    int numero = int.Parse(Console.ReadLine());
+    soma += numero;
+}
+
+Console.WriteLine(soma);
+
+Questão 8
+int numero = int.Parse(Console.ReadLine());
+long fatorial = 1;
+
+for (int i = 1; i <= numero; i++)
+{
+    fatorial *= i;
+}
+
+Console.WriteLine(fatorial);
+
+Questão 9
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(i * 3);
+}
+
+Questão 10
+double soma = 0;
+
+for (int i = 1; i <= 5; i++)
+{
+    soma += double.Parse(Console.ReadLine());
+}
+
+Console.WriteLine(soma / 5);
+
+Questão 11
+for (int i = 1; i <= 100; i++)
+{
+    if (i % 5 == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
+
+Questão 12
+int contador = 0;
+
+for (int i = 1; i <= 30; i++)
+{
+    if (i % 2 == 0)
+    {
+        contador++;
+    }
+}
+
+Console.WriteLine(contador);
+
+Questão 13
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(i * i);
+}
+
+Questão 14
+int n = int.Parse(Console.ReadLine());
+int soma = 0;
+
+for (int i = 1; i <= n; i++)
+{
+    soma += i;
+}
+
+Console.WriteLine(soma);
+
+Questão 15
+for (int i = 1; i <= 20; i++)
+{
+    if (i % 2 == 0)
+    {
+        Console.WriteLine($"{i} - Par");
+    }
+    else
+    {
+        Console.WriteLine($"{i} - Ímpar");
+    }
+}
+
+Questão 16
+int baseNum = int.Parse(Console.ReadLine());
+int expoente = int.Parse(Console.ReadLine());
+
+int resultado = 1;
+
+for (int i = 1; i <= expoente; i++)
+{
+    resultado *= baseNum;
+}
+
+Console.WriteLine(resultado);
+
+Questão 17
+int maior = int.MinValue;
+
+for (int i = 1; i <= 8; i++)
+{
+    int numero = int.Parse(Console.ReadLine());
+
+    if (numero > maior)
+    {
+        maior = numero;
+    }
+}
+
+Console.WriteLine(maior);
+
+Questão 18
+int menor = int.MaxValue;
+
+for (int i = 1; i <= 8; i++)
+{
+    int numero = int.Parse(Console.ReadLine());
+
+    if (numero < menor)
+    {
+        menor = numero;
+    }
+}
+
+Console.WriteLine(menor);
+
+Questão 19
+for (int i = 20; i >= 0; i--)
+{
+    Console.WriteLine(i);
+}
+
+Questão 20
+for (int i = 1; i <= 15; i++)
+{
+    Console.WriteLine(7 * i);
+}
+
+Questão 21
+int maiores = 0;
+
+for (int i = 1; i <= 6; i++)
+{
+    int idade = int.Parse(Console.ReadLine());
+
+    if (idade >= 18)
+    {
+        maiores++;
+    }
+}
+
+Console.WriteLine(maiores);
+
+Questão 22
+int numero = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= numero; i++)
+{
+    if (numero % i == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
+
+Questão 23
+int soma = 0;
+
+for (int i = 1; i <= 100; i++)
+{
+    if (i % 2 == 0)
+    {
+        soma += i;
+    }
+}
+
+Console.WriteLine(soma);
+
+Questão 24
+for (char letra = 'A'; letra <= 'Z'; letra++)
+{
+    Console.WriteLine(letra);
+}
+
+Questão 25
+int positivos = 0;
+int negativos = 0;
+
+for (int i = 1; i <= 10; i++)
+{
+    int numero = int.Parse(Console.ReadLine());
+
+    if (numero >= 0)
+    {
+        positivos++;
+    }
+    else
+    {
+        negativos++;
+    }
+}
+
+Console.WriteLine($"Positivos: {positivos}");
+Console.WriteLine($"Negativos: {negativos}");
+
+Questão 26
+Exiba a sequência: 2, 4, 6, 8 ... até o décimo termo.
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(i * 2);
+}
+
+
+Questão 27
+Calcule a média dos números pares entre 1 e 20.
+int soma = 0;
+int contador = 0;
+
+for (int i = 2; i <= 20; i += 2)
+{
+    soma += i;
+    contador++;
+}
+
+double media = (double)soma / contador;
+Console.WriteLine(media);
+
+
+Questão 28
+Leia N e exiba a soma dos quadrados de 1 até N.
+int n = int.Parse(Console.ReadLine());
+int soma = 0;
+
+for (int i = 1; i <= n; i++)
+{
+    soma += i * i;
+}
+
+Console.WriteLine(soma);
+
+
+Questão 29
+Exiba uma linha com 30 asteriscos.
+for (int i = 1; i <= 30; i++)
+{
+    Console.Write("*");
+}
+
+
+Questão 30
+Leia 12 valores de vendas mensais e calcule o total anual.
+double total = 0;
+
+for (int i = 1; i <= 12; i++)
+{
+    total += double.Parse(Console.ReadLine());
+}
+
+Console.WriteLine(total);
+
+
+Questão 31
+Exiba os números de 100 a 200 que são múltiplos de 10.
+for (int i = 100; i <= 200; i++)
+{
+    if (i % 10 == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
+
+
+Questão 32
+Calcule o produto de todos os números de 1 a 5.
+int produto = 1;
+
+for (int i = 1; i <= 5; i++)
+{
+    produto *= i;
+}
+
+Console.WriteLine(produto);
+
+
+Questão 33
+Leia 7 temperaturas e calcule a média semanal.
+double soma = 0;
+
+for (int i = 1; i <= 7; i++)
+{
+    soma += double.Parse(Console.ReadLine());
+}
+
+Console.WriteLine(soma / 7);
+
+
+Questão 34
+Exiba os números de 1 a 50 pulando de 2 em 2.
+for (int i = 1; i <= 50; i += 2)
+{
+    Console.WriteLine(i);
+}
+
+
+Questão 35
+Conte de 0 até 100 de 5 em 5.
+for (int i = 0; i <= 100; i += 5)
+{
+    Console.WriteLine(i);
+}
+
+
+Questão 36
+Leia 10 números e exiba a soma apenas dos positivos.
+int soma = 0;
+
+for (int i = 1; i <= 10; i++)
+{
+    int numero = int.Parse(Console.ReadLine());
+
+    if (numero > 0)
+    {
+        soma += numero;
+    }
+}
+
+Console.WriteLine(soma);
+
+
+Questão 37
+Exiba todas as tabuadas de 1 a 10.
+for (int tabuada = 1; tabuada <= 10; tabuada++)
+{
+    Console.WriteLine($"Tabuada do {tabuada}");
+
+    for (int i = 1; i <= 10; i++)
+    {
+        Console.WriteLine($"{tabuada} x {i} = {tabuada * i}");
+    }
+
+    Console.WriteLine();
+}
+
+
+Questão 38
+Calcule:
+1 + 1/2 + 1/3 + ... + 1/N
+int n = int.Parse(Console.ReadLine());
+
+double soma = 0;
+
+for (int i = 1; i <= n; i++)
+{
+    soma += 1.0 / i;
+}
+
+Console.WriteLine(soma);
+
+
+Questão 39
+Leia 5 produtos e seus preços e exiba o total.
+double total = 0;
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.Write("Preço: ");
+    total += double.Parse(Console.ReadLine());
+}
+
+Console.WriteLine(total);
+
+
+Questão 40
+Exiba os números de 1 a 100 e conte os múltiplos de 7.
+int contador = 0;
+
+for (int i = 1; i <= 100; i++)
+{
+    Console.WriteLine(i);
+
+    if (i % 7 == 0)
+    {
+        contador++;
+    }
+}
+
+Console.WriteLine($"Múltiplos de 7: {contador}");
+
+
+Questão 41
+Leia 20 notas e conte quantos foram aprovados.
+int aprovados = 0;
+
+for (int i = 1; i <= 20; i++)
+{
+    double nota = double.Parse(Console.ReadLine());
+
+    if (nota >= 7)
+    {
+        aprovados++;
+    }
+}
+
+Console.WriteLine(aprovados);
+
+
+Questão 42
+Exiba os 8 primeiros números triangulares.
+int soma = 0;
+
+for (int i = 1; i <= 8; i++)
+{
+    soma += i;
+    Console.WriteLine(soma);
+}
+
+Saída:
+1
+3
+6
+10
+15
+21
+28
+36
+
+
+Questão 43
+Soma dos múltiplos de 3 ou 5 abaixo de 50.
+int soma = 0;
+
+for (int i = 1; i < 50; i++)
+{
+    if (i % 3 == 0 || i % 5 == 0)
+    {
+        soma += i;
+    }
+}
+
+Console.WriteLine(soma);
+
+
+Questão 44
+Leia 10 valores e exiba a diferença entre o maior e o menor.
+int maior = int.MinValue;
+int menor = int.MaxValue;
+
+for (int i = 1; i <= 10; i++)
+{
+    int valor = int.Parse(Console.ReadLine());
+
+    if (valor > maior)
+        maior = valor;
+
+    if (valor < menor)
+        menor = valor;
+}
+
+Console.WriteLine(maior - menor);
+
+
+Questão 45
+Escada de asteriscos.
+for (int i = 1; i <= 5; i++)
+{
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write("*");
+    }
+
+    Console.WriteLine();
+}
+
+Saída:
+*
+**
+***
+****
+*****
+
+
+Questão 46
+Leia N números e calcule a porcentagem de pares.
+int n = int.Parse(Console.ReadLine());
+
+int pares = 0;
+
+for (int i = 1; i <= n; i++)
+{
+    int numero = int.Parse(Console.ReadLine());
+
+    if (numero % 2 == 0)
+    {
+        pares++;
+    }
+}
+
+double porcentagem = (double)pares * 100 / n;
+
+Console.WriteLine($"{porcentagem}%");
+
+
+Questão 47
+Fizz para múltiplos de 3.
+for (int i = 1; i <= 30; i++)
+{
+    if (i % 3 == 0)
+    {
+        Console.WriteLine("Fizz");
+    }
+    else
+    {
+        Console.WriteLine(i);
+    }
+}
+
+
+Questão 48
+Somatório dos ímpares entre 1 e 99.
+int soma = 0;
+
+for (int i = 1; i <= 99; i += 2)
+{
+    soma += i;
+}
+
+Console.WriteLine(soma);
+
+
+Questão 49
+Leia 15 valores e calcule a média dos maiores que 10.
+double soma = 0;
+int contador = 0;
+
+for (int i = 1; i <= 15; i++)
+{
+    double valor = double.Parse(Console.ReadLine());
+
+    if (valor > 10)
+    {
+        soma += valor;
+        contador++;
+    }
+}
+
+if (contador > 0)
+{
+    Console.WriteLine(soma / contador);
+}
+else
+{
+    Console.WriteLine("Nenhum valor maior que 10");
+}
+
+
+Questão 50
+Exiba a sequência:
+1, 2, 4, 8, 16...
+até o décimo termo.
+int valor = 1;
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(valor);
+    valor *= 2;
+}
